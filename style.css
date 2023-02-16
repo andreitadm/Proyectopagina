@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,400&display=swap');
+
+body{
+  font-family: "Roboto";
+  margin: 0;
+  text-decoration: none;
+  background: linear-gradient(rgba(26,18,11,0.7), rgba(26,18,11,0.7)), url('granos-cafe-cerca.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+a{
+  text-decoration: none;
+  color: #3C2A21;
+}
+
+header{
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  position: fixed;
+  top:0%;
+  padding: 10px;
+  width: 100%;
+  background: linear-gradient(rgba(229,229,203,0.75),rgba(229,229,203,0.75));
+}
+
+h2.banner_logo{
+  color: #3C2A21;
+  font-weight: bold;
+  font-size: 22px;
+  margin: 0 100px;
+}
+
+h2 span{
+  color: #C58940;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+nav{
+  margin: 0 90px;
+}
+
+nav li{
+  grid-column-end: -1;
+  display: inline;
+  margin: 0 10px;
+  color: #C58940;
+}
+
+a:hover{
+  color: #C58940;
+}
+
+nav li:hover{
+  background-color: #3C2A21;
+  font-size: 20px;
+}
+
+div{
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  margin-top: 11px;
+}
+
+ /*
+.div{
+  width: 1100px;
+  position: relative;
+  margin: 0 auto;
+}
+
+h1{
+  object-fit: cover;
+  transition: all 10ms;
+  width: 100px;
+  height: 100px;
+}
+
+nav{
+  position: absolute;
+  top: 40px;
+  right: 0;
+}
+
+nav li{
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+
+nav a{
+  text-transform: uppercase;
+  color: #003362;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: lightyellow;
+  font-size: 25px;
+}
+
+nav a:active{
+  color:darkblue;
+  font-size: 25px;
+}
+
+body{
+  margin: 0;
+  background-color: lightblue;
+}
+
+.sitios li{
+  display: inline-block;
+}
